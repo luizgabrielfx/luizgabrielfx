@@ -4,7 +4,7 @@ Config.Priority = {
 	--["steam:numeroaletorio"] = 100,
 }
 
-Config.RequireSteam = true
+Config.RequireSteam = false
 Config.PriorityOnly = false
 
 Config.IsBanned = function(src,callback)
@@ -12,15 +12,15 @@ Config.IsBanned = function(src,callback)
 end
 
 Config.Language = {
-	joining = "[ ZIRIX ] Entrando...",
-	connecting = "[ ZIRIX ] Conectando...",
-	err = "[ ZIRIX ] Não foi possível identificar sua Steam ou Social Club.",
-	_err = "[ ZIRIX ] Você foi desconectado por demorar demais na fila.",
-	pos = "[ ZIRIX ] Você é o %d/%d da fila, aguarde sua conexão",
-	connectingerr = "[ ZIRIX ] Não foi possível adiciona-lo na fila.",
-    wlonly = "[ ZIRIX ] Você não está aprovado na whitelist.",
-	banned = "[ ZIRIX ] Seu passaporte foi revogado na cidade.",
-	steam = "[ ZIRIX  ] Você precisa estar com a Steam aberta para conectar."
+	joining = "[ ziul ] Entrando...",
+	connecting = "[ ziul ] Conectando...",
+	err = "[ ziul ] Não foi possível identificar sua Steam ou Social Club.",
+	_err = "[ ziul ] Você foi desconectado por demorar demais na fila.",
+	pos = "[ ziul ] Você é o %d/%d da fila, aguarde sua conexão",
+	connectingerr = "[ ziul ] Não foi possível adiciona-lo na fila.",
+    wlonly = "[ ziul ] Você não está aprovado na whitelist.",
+	banned = "[ ziul ] Seu passaporte foi revogado na cidade.",
+	steam = "[ ziul  ] Você precisa estar com a Steam aberta para conectar."
 }
 
 local Queue = {}
