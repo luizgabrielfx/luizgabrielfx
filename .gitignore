@@ -1,0 +1,4 @@
+build/*
+build/**/*
+zirix-data/cache/**/*
+zirix-data/cache/*
